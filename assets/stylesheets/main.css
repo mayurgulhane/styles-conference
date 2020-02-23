@@ -79,7 +79,37 @@ table {
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
+h1, h2, h3, h4 {
+  color:#648880;
+}
+h1{
+  font-size: 36px;
+  line-height: 44px;
+}
+h2{
+  font-size: 24px;
+  line-height: 44px;
+}
+h3{
+  font-size: 21px;
 
+}
+h4{
+  font-size: 18px;
+
+}
+h5{
+  color:  #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+strong{
+  font-weight: 400;
+}
+cite,em{
+  font-style: initial;
+}
 /*
   ========================================
   Buttons
@@ -103,7 +133,16 @@ h1, h3, h4, h5, p {
 */
 
 .hero {
+  line-height: 44px;
   padding: 22px 80px 66px 80px;
+  text-align: center;
+}
+.hero h2{
+  font-size: 36px;
+}
+.hero p{
+  font-size: 24px;
+  font-weight: 100;
 }
 /*
   ========================================
@@ -132,7 +171,17 @@ h1, h3, h4, h5, p {
   border-top:4px solid #648880;
   padding: 40px 0 22px 0;
   float:left;
+  font-size: 48px;
+  line-height: 44px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  text-transform: uppercase;
 }
+.tagline{
+  margin: 66px 0 22px 0;
+  text-align: right;
+}
+
 /*
   ========================================
   Primary footer
@@ -141,9 +190,12 @@ h1, h3, h4, h5, p {
 
 .primary-footer small{
   float:left;
+  font-weight: 400;
 }
 
 .primary-footer{
+  color: #648880;
+  font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
@@ -165,3 +217,45 @@ h1, h3, h4, h5, p {
   padding-right: 15px;
 }
 
+/*
+  ========================================
+  Custom style
+  ========================================
+*/
+body{
+  color: #888;
+  font:300 16px/22px "Lato","Open Sans","Helvetica Neue",helvetica,Arial,sans-serif ;
+}
+/*
+  ========================================
+  Links
+  ========================================
+*/
+a:hover{
+  color: #a9b2b9;
+  
+}
+a{
+  color: #648880;
+  text-decoration: none;
+}
+p a{
+   border-bottom:1px solid #dfe2e5 ;
+}
+.primary-nav{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.teaser a:hover h3{
+  color: #a9b2b9;
+}
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.nav{
+  text-align: right;
+}
